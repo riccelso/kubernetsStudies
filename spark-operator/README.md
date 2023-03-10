@@ -28,7 +28,7 @@ helm install my-release spark-operator/spark-operator --namespace spark-operator
 helm ls -n spark-operator
 ```
 
-## INSIDE SPECIFIC NAMESPACE
+### INSIDE SPECIFIC NAMESPACE
 ```
 kubens spark-operator
 
